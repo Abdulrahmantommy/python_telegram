@@ -2,8 +2,8 @@
 
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-
-updater = Updater(token="fffffffff")
+APY = 'YOUR_API_HERE'
+updater = Updater(token=API)
 dispatcher = updater.dispatcher
 
 def option(bot, update):
